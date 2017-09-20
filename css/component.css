@@ -133,6 +133,11 @@
 	display: inline-block;
 	margin: 30px 0 0;
 	outline: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 .og-details a::before, .btn-download::before {
@@ -142,8 +147,8 @@
 }
 
 .og-details a:hover, .btn-download:hover {
-	border-color: #999;
-	color: #999;
+	border-color: #729ec6;
+	color: #729ec6;
 }
 
 .og-loading {
