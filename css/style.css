@@ -30,13 +30,3 @@
 mark {
     background-color: #e3e4fc;
 }
-
-.btn-info {
-    color: #fff;
-    background-color: #292b2c;
-    border-color: #292b2c;
-}
-
-.btn-info:hover {
-    background-color: rgb(114, 158, 198);
-}

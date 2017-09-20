@@ -122,7 +122,7 @@
 	color: #999;
 }
 
-.og-details a {
+.og-details a, .btn-info {
 	font-weight: 700;
 	font-size: 16px;
 	color: #333;
@@ -135,13 +135,13 @@
 	outline: none;
 }
 
-.og-details a::before {
+.og-details a::before, .btn-info::before {
 	content: '\2192';
 	display: inline-block;
 	margin-right: 10px;
 }
 
-.og-details a:hover {
+.og-details a:hover, .btn-info:hover {
 	border-color: #999;
 	color: #999;
 }
