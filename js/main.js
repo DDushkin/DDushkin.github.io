@@ -2,7 +2,7 @@ $(function() {
   const body = document.body;
   let clickCount = 0;
   let game = '';
-  let isMobile = window.matchMedia("only screen and (min-width: 992px)").matches;
+  let isDesktop = window.matchMedia("only screen and (min-width: 992px)").matches;
 
   window.addEventListener('blur', () => {
     if (document.activeElement === game) {
