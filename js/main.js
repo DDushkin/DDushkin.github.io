@@ -21,7 +21,7 @@ $(function() {
     let mario = $(this);
     mario.find('div.box').css('transform', 'translateY(-5px)');
 
-    if (clickCount === 9) {
+    if (clickCount % 9 === 0) {
       $("<audio></audio>").attr({
         'src': '../sounds/powerup-appears.wav',
         'autoplay': 'autoplay'
@@ -31,7 +31,7 @@ $(function() {
       setTimeout(function() {
         mario.find('span.mushroom').removeClass('play');
       }, 2000);
-    } else if (clickCount === 20 && !isMobile) {
+    } else if (clickCount === 20 && isDesktop) {
       $('.game').addClass('screen');
 
       setTimeout(function() {
